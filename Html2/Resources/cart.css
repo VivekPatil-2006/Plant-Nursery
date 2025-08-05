@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Irish+Grover&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-family: "Irish Grover", cursive;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: green;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  list-style: none;
+  margin-left: 550px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.search {
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #e9fbe6;
+  outline: none;
+}
+
+#search {
+  width: 20px;
+  height: 20px;
+}
+
+#cart {
+  width: 30px;
+  height: 30px;
+}
+
+.cart-container {
+  width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px #ececec;
+  padding: 32px 28px;
+}
+
+.cart-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #168a22;
+  font-weight: 700;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  #cart {
+    width: 40px;
+    height: 50px;
+  }
+}
+
+
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 18px;
+}
+
+.item-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.item-info {
+  flex: 1;
+  margin: 0 24px;
+}
+
+.item-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.item-qty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 3px;
+}
+
+.qty-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #bfc9b7;
+  background: #e7fbe5;
+  color: #168a22;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.qty-btn:hover {
+  background: #bdeba9;
+}
+
+.item-price {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.remove-btn {
+  background: #e96e6e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.remove-btn:hover {
+  background: #d44848;
+}
+
+.cart-summary {
+  text-align: right;
+  font-size: 1.2rem;
+  margin: 18px 0;
+  font-weight: 600;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 16px;
+}
+
+.continue-btn {
+  background: #ececec;
+  color: #222;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 11px 28px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.buy-btn {
+  background: #eefe89;
+  color: #2a6e00;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 11px 28px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 7px #f1ffdc;
+}
+.cart-container h2 image {
+  width: 40px;
+  height: 30px;
+  margin-left: 10px;
+}

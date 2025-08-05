@@ -1,0 +1,107 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/Html/image/backgroung.webp') center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.logo{
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: green;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.container h1 {
+    margin-top: 100px;
+  color: rgb(2, 61, 2);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.register-box {
+  background: rgba(83, 141, 112, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 40px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  
+} 
+.in-Register{
+      background: rgba(124, 203, 91, 0.3);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.register-box h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e2e2e2;
+}
+
+
+.btn-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.register-btn {
+  background-color: #e57373;
+  color: white;
+}
+
+.register-btn {
+  background-color: #e57373;
+  color: white;
+}
+
+button:hover {
+  background-color: #c94d4d;
+  color:black;
+}
+
