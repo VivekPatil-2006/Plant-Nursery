@@ -1,0 +1,88 @@
+
+.heading {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 22px;
+}
+
+/* Main Order Layout */
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.plant-img img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e74c3c;
+  font-size: 16px;
+}
+
+/* Order Info Box */
+.order-box {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.order-box h4 {
+  margin: 15px 0 10px;
+  color: #d44b4b;
+  font-size: 16px;
+}
+
+.payment-options {
+  margin-bottom: 15px;
+}
+
+.payment-options label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.payment-img {
+  width: 80px;
+  margin-top: 10px;
+}
+
+.delivery {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cancel {
+  background-color: #ff5e3a;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.place {
+  background-color: #f4d73a;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

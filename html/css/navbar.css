@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Irish+Grover&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ========== Base Styles ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ========== Header/Navbar ========== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #f5fff2;
+}
+
+/* Logo Styles */
+.logo {
+  font-family: 'Irish Grover', cursive;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: green;
+}
+
+.logo span {
+  color: #444;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: green;
+}
+
+/* Search Styles */
+.search {
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #e9fbe6;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.search:focus {
+  box-shadow: 0 0 5px rgba(0, 128, 0, 0.3);
+}
+
+/* Search Icon */
+#search {
+  width: 20px;
+  height: 20px;
+}
