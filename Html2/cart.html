@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="/Html/Resources/cart.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">Blooming Heaven</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Login</a></li>
+        <li>
+          <input class="search" type="text" placeholder="Search..." />
+        </li>
+        <li>
+          <i class="icon"><img id="search" src="/Html/image/search.jpg" alt="Search"></i>
+        </li>
+        <li>
+          <i class="icon"><img id="cart" src="/Html/image/cart.jpg" alt="Cart"></i>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<div class="cart-container">
+  <h2>Your Cart <span><img id="cart" src="/Html/image/cart.jpg" class="cart-icon" alt="Cart"></span></h2>
+  <div class="cart-item">
+    <img src="/Html/image/spray.jpg" alt="Water Spray Bottle" class="item-img">
+    <div class="item-info">
+      <div class="item-title">Water Spray Bottle</div>
+      <div class="item-qty">
+        Qty:
+        <button class="qty-btn">-</button>
+        <span>1</span>
+        <button class="qty-btn">+</button>
+      </div>
+      <div class="item-price">₹300</div>
+    </div>
+    <button class="remove-btn">Remove</button>
+  </div>
+  <div class="cart-item">
+    <img src="/Html/image/OIP.webp" alt="Lotus Flower" class="item-img">
+    <div class="item-info">
+      <div class="item-title">Lotus Flower</div>
+      <div class="item-qty">
+        Qty:
+        <button class="qty-btn">-</button>
+        <span>1</span>
+        <button class="qty-btn">+</button>
+      </div>
+      <div class="item-price">₹300</div>
+    </div>
+    <button class="remove-btn">Remove</button>
+  </div>
+  <div class="cart-summary">
+    <span>Subtotal: ₹600</span>
+  </div>
+  <div class="cart-actions">
+    <button class="continue-btn">Continue Shopping</button>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+</div>
+
+
+
+</body>
+</html>

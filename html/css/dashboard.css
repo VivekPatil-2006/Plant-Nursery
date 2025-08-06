@@ -1,0 +1,118 @@
+/* Reset + Base */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#search {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+
+   font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: green;
+}
+
+
+.logo span {
+  color: #444;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.search {
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #e9fbe6;
+  outline: none;
+}
+
+.icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Main Section */
+.section-title {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.card img {
+  width: 180px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+footer {
+    margin-top: 127px;
+  text-align: center;
+  padding: 1rem;
+  color: green;
+  font-size: 0.9rem;
+  border-top: 1px solid #eee;
+}

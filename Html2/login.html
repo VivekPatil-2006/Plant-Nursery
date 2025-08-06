@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blooming Heaven - Login</title>
+  <link rel="stylesheet" href="/Html/Resources/login.css">
+
+  <script src="/Html/Resources/login.js" ></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+</style>
+  <head>
+<body>
+
+  <div class="container">
+    <h1 class="logo">Blooming Heaven</h1>
+    <div class="login-box">
+      <h2>Login Here</h2>
+      <div class="in-Login">
+<form >
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required>
+
+        <div class="btn-group" >
+          <button type="button" class="login-btn" onclick="validation()">Login</button>
+          <button type="button" class="register-btn" onclick="location.href='/Html/register.html'">Register</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
