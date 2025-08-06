@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indoor Plants</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Blooming Heaven</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Login</a></li>
+        <li><input class="search" type="text" placeholder="Search..." /></li>
+        <li><i class="icon"><img id="search" src="./images/search.jpg" /></i></li>
+        <li><i class="icon"><img id="search" src="./images/cart.jpg" /></i></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ✅ Outdoor Plants Section -->
+  <main class="indoor-section">
+    <h1>Outdoor Plants</h1>
+
+    <!-- Filter Tabs -->
+    <div class="plant-filters">
+
+      <button class="tab-btn active-tab" data-type="flowering">
+        <img src="./images/flowering.png" alt="Flowering" />
+        Flowering
+      </button>
+
+      <button class="tab-btn" data-type="non-flowering">
+        <img src="./images/nonflower.jpg" alt="Non-Flowering" />
+        Non-Flowering
+      </button>
+    </div>
+
+    <!-- Flowering Plants -->
+    <div class="plant-grid" id="flowering-plants">
+
+      <div class="plant-card">
+        <img src="./images/outdoor-sample.jpg" alt="Peace Lily" />
+        <h3>Ficus Bonsai</h3>
+        <button class="details-btn">View Details</button>
+      </div>
+
+      <div class="plant-card">
+        <img src="./images/indoor-flower-2.jpg" alt="Anthurium" />
+        <h3>Anthurium</h3>
+        <button class="details-btn">View Details</button>
+      </div>
+
+      <div class="plant-card">
+        <img src="./images/indoor-flower-3.jpg.png" alt="Areca Palm" />
+        <h3>Areca Palm</h3>
+        <button class="details-btn">View Details</button>
+      </div>
+
+    </div>
+
+    <!-- Non-Flowering Plants -->
+    <div class="plant-grid hidden" id="non-flowering-plants">
+
+      <div class="plant-card">
+        <img src="./images/indoor-non-flower-1.jpg" alt="Snake Plant" />
+        <h3>Snake Plant</h3>
+        <button class="details-btn">View Details</button>
+      </div>
+
+      <div class="plant-card">
+        <img src="./images/indoor-non-flower-2.jpg" alt="ZZ Plant" />
+        <h3>ZZ Plant</h3>
+        <button class="details-btn">View Details</button>
+      </div>
+
+      <div class="plant-card">
+        <img src="./images/indoor-non-flower-3.jpg" alt="Snake Plant" />
+        <h3>Unique Plant</h3>
+        <button class="details-btn">View Details</button>
+      </div>
+      
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
